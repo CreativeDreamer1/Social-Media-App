@@ -1,0 +1,17 @@
+nav {
+    background-color: #eeeeee;
+    box-shadow: 0 2px 5px #d1d1d1;
+}
+
+.nav-title {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 50px;
+}
+

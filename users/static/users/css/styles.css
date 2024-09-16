@@ -1,0 +1,62 @@
+nav {
+    background-color: #eeeeee;
+    box-shadow: 0 2px 5px #d1d1d1;
+}
+
+.nav-title {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.card-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-login-card {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0 2px 5px #d1d1d1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=password] {
+    width: 100%;
+    outline: none;
+}
+
+.success {
+    font-size: 15px;
+    color: #6a6aff;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.error-message {
+    font-size: 15px;
+    color: #ff0000;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
